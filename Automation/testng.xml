@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<groups>
+<run>
+<include name = "Smoke"/>>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.testscript.CustomerModuleTestClass"/>
+      <class name="com.actitime.testscript.TaskModule"/>
+      <class name="com.actitime.testscript.EventModule"/>
+    </classes>
+  </test> 
+</suite> 
