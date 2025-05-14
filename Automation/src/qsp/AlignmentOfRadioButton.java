@@ -22,7 +22,8 @@ else
 {
 	System.out.println("Gender radio button is not properly aligned and fail");
 }
-driver.quit();
+		
+driver.close();
 	}
 
 }
